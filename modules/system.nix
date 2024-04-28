@@ -1,29 +1,30 @@
-# Edit this configuration file to define what should be installed on
-# your system.  Help is available in the configuration.nix(5) man page
-# and in the NixOS manual (accessible by running ‘nixos-help’).
-
-{ config, pkgs, ... }:
-
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-    ];
+  pkgs,
+  lib,
+  ...
+}: let
+  username = "marko";
+in {
+  # ============================= User related =============================
 
-  # Bootloader.
-  boot.loader.grub.enable = true;
-  boot.loader.grub.device = "/dev/sda";
-  boot.loader.grub.useOSProber = true;
+  # Define a user account. Don't forget to set a password with ‘passwd’.
+  users.users.marko = {
+    isNormalUser = true;
+    description = "marko";
+    extraGroups = ["networkmanager" "wheel"];
+    #openssh.authorizedKeys.keys = [
+     # "ssh-ed25519 AAAAC3NzaCAAAAAAAAAAAAAAIJx3Sk20pLL1b2PPAAAAAAAAAAADrErq83xAAAAAAAAA user@"
+    #];
+  };
+  # given the users in this list the right to specify additional substituters via:
+  #    1. `nixConfig.substituers` in `flake.nix`
+  #    2. command line args `--options substituers http://xxx`
+  nix.settings.trusted-users = [username];
 
-  networking.hostName = "nixos"; # Define your hostname.
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-
-  # Configure network proxy if necessary
-  # networking.proxy.default = "http://user:password@proxy:port/";
-  # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
-
-  # Enable networking
-  networking.networkmanager.enable = true;
+  # customise /etc/nix/nix.conf declaratively via `nix.settings`
+  nix.settings = {
+    # enable flakes globally
+    experimental-features = ["nix-command" "flakes"];
 
   # Set your time zone.
   time.timeZone = "Europe/Berlin";
@@ -133,4 +134,5 @@
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.11"; # Did you read the comment?
 
+  };
 }
