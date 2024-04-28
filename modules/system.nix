@@ -21,11 +21,6 @@ in {
   #    2. command line args `--options substituers http://xxx`
   nix.settings.trusted-users = [username];
 
-  # customise /etc/nix/nix.conf declaratively via `nix.settings`
-  nix.settings = {
-    # enable flakes globally
-    experimental-features = ["nix-command" "flakes"];
-  };
   # Set your time zone.
   time.timeZone = "Europe/Berlin";
 
