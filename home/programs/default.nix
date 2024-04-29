@@ -2,6 +2,6 @@
   imports = [
     ./git.nix
     ./gamemode.nix
-    #./steam.nix
+    ./steam.nix
   ];
 }

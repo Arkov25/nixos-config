@@ -1,6 +1,11 @@
-{ pkgs, ... }:
-
 {
-  # Feral GameMode
-  programs.gamemode.enable = true;
+  pkgs,
+  ...
+}: {
+  home.packages = [pkgs.gh];
+
+  programs.gamemode = {
+    enable = true;
+
+  };
 }
