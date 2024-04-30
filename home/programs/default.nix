@@ -1,7 +1,7 @@
 {
   imports = [
     ./git.nix
-    ./gamemode.nix
-    ./steam.nix
+   # ./gamemode.nix
+   # ./steam.nix
   ];
 }
