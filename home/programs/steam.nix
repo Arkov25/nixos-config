@@ -2,13 +2,21 @@
   pkgs,
   config,
   ...
-}: {
-  home.packages = [pkgs.gh];
+}:
+# media - control and enjoy audio/video
+{
+  # imports = [
+  # ];
 
-  programs.steam = {
-    enable = true;
+  home.packages = with pkgs; [
+    steam
+  ];
 
-  hardware.opengl.driSupport32Bit = true;
+  programs = {
+    steam = {
+      enable = true;
+    };
 
+    steam.enable = true;
   };
 }
