@@ -13,7 +13,7 @@
     pavucontrol
     playerctl
     pulsemixer
-    steam
+#    steam
     # images
     imv
   ];

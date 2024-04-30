@@ -9,14 +9,26 @@
   # ];
 
   home.packages = with pkgs; [
+    # audio control
+    # pavucontrol
+    # playerctl
+    # pulsemixer
     steam
+    # images
+    # imv
   ];
 
-  programs = {
-    steam = {
-      enable = true;
-    };
+  # programs = {
+  #   mpv = {
+  #     enable = true;
+  #     defaultProfiles = ["gpu-hq"];
+  #     scripts = [pkgs.mpvScripts.mpris];
+  #   };
 
-    steam.enable = true;
-  };
+  #   obs-studio.enable = true;
+  # };
+
+  # services = {
+  #   playerctld.enable = true;
+  # };
 }
