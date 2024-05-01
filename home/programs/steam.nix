@@ -1,7 +1,34 @@
-{ pkgs, ... }:
-
 {
-  opengl.driSupport32Bit = true;
-  programs.steam.enable = true;
-  systemPackages = [ pkgs.steam ];
+  pkgs,
+  config,
+  ...
+}:
+# media - control and enjoy audio/video
+{
+  # imports = [
+  # ];
+
+  home.packages = with pkgs; [
+    # audio control
+    # pavucontrol
+    # playerctl
+    # pulsemixer
+    steam
+    # images
+    # imv
+  ];
+
+  # programs = {
+  #   mpv = {
+  #     enable = true;
+  #     defaultProfiles = ["gpu-hq"];
+  #     scripts = [pkgs.mpvScripts.mpris];
+  #   };
+
+  #   obs-studio.enable = true;
+  # };
+
+  # services = {
+  #   playerctld.enable = true;
+  # };
 }
