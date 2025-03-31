@@ -28,7 +28,7 @@
   ];
   console.keyMap = "de";
  # Set your time zone.
- 
+
   time.timeZone = "Europe/Berlin";
 
   # Select internationalisation properties.
@@ -45,6 +45,5 @@
     LC_TELEPHONE = "de_DE.UTF-8";
     LC_TIME = "de_DE.UTF-8";
     system.stateVersion = "24.11";
-
-    }
+    };
 }
