@@ -14,9 +14,7 @@
       "ghostty.cachix.org-1:QB389yTa6gTyneehvqG58y0WnHjQOqgnA+wBnpWWxns="
     ];
   };
-
-  nixpkgs.overlays = [ inputs.nur.overlays.default ];
-
+  
   environment.systemPackages = with pkgs; [ wget git ];
 
   console.keyMap = "de";
