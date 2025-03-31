@@ -11,9 +11,9 @@
     ./bootloader.nix
     ./network.nix    
     ./network.nix
-    ./pipewire.nix.
+    ./pipewire.nix
     ./system.nix
-    ./user.nix.
+    ./user.nix
     ./xserver.nix
       ];
 }
