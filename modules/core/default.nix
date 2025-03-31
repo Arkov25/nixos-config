@@ -9,9 +9,11 @@
 {
   imports = [
     ./bootloader.nix
-    ./xserver.nix
-    ./networking.nix
-    ./system.nix
+    ./network.nix    
     ./network.nix
+    ./pipewire.nix.
+    ./system.nix
+    ./user.nix.
+    ./xserver.nix
       ];
 }
