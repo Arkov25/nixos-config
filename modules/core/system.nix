@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 {
   # imports = [ inputs.nix-gaming.nixosModules.default ];
   nix = {
@@ -43,7 +43,8 @@
     LC_NUMERIC = "de_DE.UTF-8";
     LC_PAPER = "de_DE.UTF-8";
     LC_TELEPHONE = "de_DE.UTF-8";
-    LC_TIME = "de_DE.UTF-8";
-    system.stateVersion = "24.11";
+    LC_TIME = "de_DE.UTF-8";  
     };
+
+    system.stateVersion = "24.11";
 }
