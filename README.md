@@ -7,8 +7,8 @@ https://nixos-and-flakes.thiscute.world/ Good Resource for information
 
 more usefull Links
 https://wiki.nixos.org/wiki/NixOS_Wiki
+https://search.nixos.org/packages for packages
 https://www.reddit.com/r/NixOS/comments/1jlmv9w/comment/mk4ymx6/
-    https://search.nixos.org/packages for packages
 
     https://search.nixos.org/options to quickly check if NixOS already has options for a given task
 
