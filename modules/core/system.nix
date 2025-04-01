@@ -15,6 +15,8 @@
     ];
   };
   
+  nixpkgs.config.allowUnfree = true;
+
   environment.systemPackages = with pkgs; [ wget git ];
 
   console.keyMap = "de";
