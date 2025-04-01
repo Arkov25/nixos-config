@@ -10,8 +10,8 @@
   imports = [
     ./bootloader.nix
     ./network.nix    
-    ./network.nix
     ./pipewire.nix
+    ./steam.nix
     ./system.nix
     ./user.nix
     ./xserver.nix
