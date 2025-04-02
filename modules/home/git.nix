@@ -5,5 +5,5 @@
 
     userName = "Arkov25";
     userEmail = "th4lyhvtf@mozmail.com";
-  }
+  };
 }
