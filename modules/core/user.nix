@@ -22,12 +22,7 @@
       home.stateVersion = "24.05";
       programs.home-manager.enable = true;
 
-      # Set environment variables here
-      sessionVariables = {
-        NIXOS_OZONE_WL = "1";
-      # If your cursor becomes invisible
-      # WLR_NO_HARDWARE_CURSORS = "1";
-    };
+
   };
 };
   users.users.${username} = {
