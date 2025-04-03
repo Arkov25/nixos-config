@@ -1,38 +1,31 @@
 { inputs, pkgs, ... }:
 {
-    home.packages = with pkgs; [
+  home.packages = with pkgs; [
     swww
+    inputs.hypr-contrib.packages.${pkgs.system}.grimblast
+    hyprpicker
+    grim
+    slurp
+    wl-clip-persist
+    cliphist
+    wf-recorder
+    glib
     wayland
+    direnv
   ];
- 
-
-
-
-#environment.sessionVariables = {
- # If your cursor becomes invisible
- # WLR_NO_HARDWARE_CURSORS = "1";
- # Hint electron apps to use wayland
- # NIXOS_OZONE_WL = "1";
-#};
-
-# waybar
-  programs.waybar = {
+  systemd.user.targets.hyprland-session.Unit.Wants = [
+    "xdg-desktop-autostart.target"
+  ];
+  wayland.windowManager.hyprland = {
     enable = true;
-  };
-  programs.waybar.package = pkgs.waybar.overrideAttrs (oa: {
-    mesonFlags = (oa.mesonFlags or [ ]) ++ [ "-Dexperimental=true" ];
-  });
-
-#XDG portal
-xdg.portal.enable = true;
-xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
-
+    package = null;
+    portalPackage = null;
 
     xwayland = {
       enable = true;
       # hidpi = true;
     };
-    enableNvidiaPatches = true;
+    # enableNvidiaPatches = false;
     systemd.enable = true;
-
+  };
 }
