@@ -23,9 +23,14 @@ hardware = {
 };
 
 # waybar
-pkgs.waybar.overrideAttrs (oldAttrs: {
-    mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
-});
+{
+  programs.waybar = {
+    enable = true;
+  };
+  programs.waybar.package = pkgs.waybar.overrideAttrs (oa: {
+    mesonFlags = (oa.mesonFlags or [ ]) ++ [ "-Dexperimental=true" ];
+  });
+}
 
 
 #XDG portal
