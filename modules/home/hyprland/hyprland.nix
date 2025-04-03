@@ -22,11 +22,11 @@ hardware = {
     nvidia.modesetting.enable = true;
 };
 
-#waybar
-(pkgs.waybar.overrideAttrs (oldAttrs: {
+# waybar
+pkgs.waybar.overrideAttrs (oldAttrs: {
     mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
-  })
-)
+});
+
 
 #XDG portal
 xdg.portal.enable = true;

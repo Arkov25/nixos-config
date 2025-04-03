@@ -5,6 +5,8 @@
     ./hyprland/hyprland.nix
     ./browser.nix
     ./git.nix
+    ./kitty.nix
+    ./rofi.nix
     ./vscodium.nix
       ];
 }
