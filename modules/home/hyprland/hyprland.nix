@@ -1,11 +1,12 @@
 { inputs, pkgs, ... }:
 {
- # Enabling hyprlnd on NixOS
-programs.hyprland = {
-  enable = true;
-  nvidiaPatches = true;
-  xwayland.enable = true;
-};
+    home.packages = with pkgs; [
+    swww
+    wayland
+  ];
+ 
+
+
 
 #environment.sessionVariables = {
  # If your cursor becomes invisible
@@ -25,4 +26,13 @@ programs.hyprland = {
 #XDG portal
 xdg.portal.enable = true;
 xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+
+
+    xwayland = {
+      enable = true;
+      # hidpi = true;
+    };
+    enableNvidiaPatches = true;
+    systemd.enable = true;
+
 }
