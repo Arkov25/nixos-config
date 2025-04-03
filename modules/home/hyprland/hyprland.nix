@@ -33,7 +33,4 @@ hardware = {
 #XDG portal
 xdg.portal.enable = true;
 xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
-
-#rofi keybind
-bind = $mainMod, S, exec, rofi -show drun -show-icons
 }
