@@ -2,7 +2,7 @@
 {
   imports = [
     ./discord/discord.nix
-    ./hyprland/hyprland.nix
+    ./hyprland/default.nix
     ./browser.nix
     ./git.nix
     ./kitty.nix
