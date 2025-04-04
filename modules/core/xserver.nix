@@ -1,16 +1,19 @@
-{ pkgs, ... }:
-
+{ pkgs, username, ... }:
 {
-  # Enable the X11 windowing system.
-  services.xserver.enable = true;
+  services = {
+    xserver = {
+      enable = true;
+      xkb.layout = "de,de";
+    };
 
-  # Enable the GNOME Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
-
-  # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "de";
-    variant = "";
+    displayManager.autoLogin = {
+      enable = true;
+      user = "${username}";
+    };
+    libinput = {
+      enable = true;
+    };
   };
+  # To prevent getting stuck at shutdown
+  systemd.extraConfig = "DefaultTimeoutStopSec=10s";
 }
