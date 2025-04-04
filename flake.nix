@@ -3,6 +3,11 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+
+    hyprland.url = "github:hyprwm/Hyprland";
+    hypr-contrib.url = "github:hyprwm/contrib";
+    hyprpicker.url = "github:hyprwm/hyprpicker";
+
     nix-gaming.url = "github:fufexan/nix-gaming";
 
     home-manager = {
