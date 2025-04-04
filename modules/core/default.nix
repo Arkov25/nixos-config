@@ -9,6 +9,7 @@
 {
   imports = [
     ./bootloader.nix
+    ./hardware.nix
     ./network.nix    
     ./pipewire.nix
     ./steam.nix
