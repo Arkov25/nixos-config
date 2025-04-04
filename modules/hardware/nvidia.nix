@@ -17,10 +17,6 @@
     "nvidia-drm.fbdev=1"
   ];
 
-  nixpkgs.config = {
-    packageOverrides = _: { inherit (pkgs) linuxPackages_latest nvidia_x11; };
-  };
-
   hardware.nvidia = {
     powerManagement = {
       enable = true;
