@@ -4,6 +4,6 @@
     enable = true;
 
     userName = "Arkov25";
-    userEmail = "th4lyhvtf@mozmail.com";
+    userEmail = "Marko.Veljkovic25@gmail.com";
   };
 }
