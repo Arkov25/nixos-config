@@ -7,6 +7,7 @@
     ./git.nix
     ./kitty.nix
     ./rofi.nix
+    ./swaylock.nix
     ./via.nix
     ./vscodium.nix
       ];
