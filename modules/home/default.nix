@@ -6,6 +6,7 @@
     ./swaync/swaync.nix
     ./waybar
     ./browser.nix
+    ./ghostty.nix
     ./git.nix
     ./kitty.nix
     ./nemo.nix
