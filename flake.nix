@@ -10,7 +10,7 @@
 
     nix-gaming.url = "github:fufexan/nix-gaming";
     ghostty.url = "github:ghostty-org/ghostty";
-    inputs.nixcord.url = "github:KaylorBen/nixcord";
+    nixcord.url = "github:KaylorBen/nixcord";
 
     home-manager = {
       url = "github:nix-community/home-manager";
