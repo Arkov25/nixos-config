@@ -7,7 +7,8 @@
     ./browser.nix
     ./git.nix
     ./kitty.nix
-    ./hyprshot.nix
+    ./nemo.nix
+    ./packages.nix
     ./rofi.nix
     ./swaylock.nix
     ./via.nix

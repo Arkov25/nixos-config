@@ -4,6 +4,6 @@
     #gimp
     thunderbird
     #obs-studio
-    #hyprshot
+    hyprshot
   ];
 }
