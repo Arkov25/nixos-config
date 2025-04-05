@@ -25,13 +25,14 @@
       device = "/dev/disk/by-uuid/175a7bf3-630b-45be-bd80-b0d08890f887";
       fsType = "btrfs";
       options = [ "subvol=@home" "compress=zstd:1" "noatime" ];
+    };
 
     "/home/${username}/Games" = {
       device = "/dev/disk/by-uuid/175a7bf3-630b-45be-bd80-b0d08890f887";
       fsType = "btrfs";
       options = [ "subvol=@home/${username}/Games" "compress=zstd:1" "noatime" ];
 
-    };
+    
     };
   }
 }
