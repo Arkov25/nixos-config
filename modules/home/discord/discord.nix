@@ -1,6 +1,6 @@
 { pkgs, lib, ... }:
 
-let
+/* let
   vencord = pkgs.vencord;
 
   # Beispielhafte Vencord Plugin-Konfiguration via nixcord
@@ -23,12 +23,11 @@ let
       };
     };
   };
-in {
+in */ { 
   home.packages = [
     (pkgs.discord.override ({
       withVencord = true;
       withOpenASAR = true;
-      vencord = vencord;
       enableAutoscroll = true;
     }))
     pkgs.webcord
@@ -37,7 +36,7 @@ in {
   # Plugin Theme
   xdg.configFile."Vencord/themes/gruvbox.theme.css".source = ./gruvbox.css;
 
-  # Vencord Plugin- und Settings-Dateien via nixcord
+ /*  # Vencord Plugin- und Settings-Dateien via nixcord
   xdg.configFile."Vencord/plugins.json".text = builtins.toJSON vencordConfig.plugins;
-  xdg.configFile."Vencord/settings/settings.json".text = builtins.toJSON vencordConfig.settings;
+  xdg.configFile."Vencord/settings/settings.json".text = builtins.toJSON vencordConfig.settings; */
 }

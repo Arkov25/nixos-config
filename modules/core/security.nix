@@ -4,4 +4,6 @@
   security.sudo.enable = true;
   security.pam.services.swaylock = { };
   security.pam.services.hyprlock = { };
+  services.gnome.gnome-keyring.enable = true;
+  security.pam.services.hyprland.enableGnomeKeyring = true;
 }
