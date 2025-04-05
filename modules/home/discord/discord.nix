@@ -1,4 +1,4 @@
-{ pkgs, lib, nixcord, ... }:
+{ pkgs, lib, ... }:
 
 let
   vencord = pkgs.vencord;
