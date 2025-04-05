@@ -7,6 +7,8 @@
     ./waybar
     ./browser.nix
     ./ghostty.nix
+    ./gnome.nix
+    ./gtk.nix
     ./git.nix
     ./kitty.nix
     ./nemo.nix
