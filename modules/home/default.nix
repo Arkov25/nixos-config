@@ -11,5 +11,6 @@
     ./swaylock.nix
     ./via.nix
     ./vscodium.nix
+    ./waypaper.nix
       ];
 }
