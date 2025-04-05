@@ -4,35 +4,33 @@
 {
   fileSystems = {
     "/" = {
-      device = "/dev/disk/by-uuid/175a7bf3-630b-45be-bd80-b0d08890f887";
+      device = "/dev/disk/by-uuid/3feed12d-e87f-4f20-b0ab-0a5cb0145c04";
       fsType = "btrfs";
       options = [ "subvol=@" "compress=zstd:1" "noatime" ];
     };
 
     "/nix" = {
-      device = "/dev/disk/by-uuid/175a7bf3-630b-45be-bd80-b0d08890f887";
+      device = "/dev/disk/by-uuid/3feed12d-e87f-4f20-b0ab-0a5cb0145c04";
       fsType = "btrfs";
       options = [ "subvol=@nix" "compress=zstd:1" "noatime" ];
     };
 
     "/var/log" = {
-      device = "/dev/disk/by-uuid/175a7bf3-630b-45be-bd80-b0d08890f887";
+      device = "/dev/disk/by-uuid/3feed12d-e87f-4f20-b0ab-0a5cb0145c04";
       fsType = "btrfs";
       options = [ "subvol=@var_log" "compress=zstd:1" "noatime" ];
     };
 
     "/home" = {
-      device = "/dev/disk/by-uuid/175a7bf3-630b-45be-bd80-b0d08890f887";
+      device = "/dev/disk/by-uuid/3feed12d-e87f-4f20-b0ab-0a5cb0145c04";
       fsType = "btrfs";
       options = [ "subvol=@home" "compress=zstd:1" "noatime" ];
     };
 
     "/home/${username}/Games" = {
-      device = "/dev/disk/by-uuid/175a7bf3-630b-45be-bd80-b0d08890f887";
+      device = "/dev/disk/by-uuid/3feed12d-e87f-4f20-b0ab-0a5cb0145c04";
       fsType = "btrfs";
-      options = [ "subvol=@home/${username}/Games" "compress=zstd:1" "noatime" ];
-
-    
+      options = [ "subvol=@home/${username}/Games" "compress=zstd:1" "noatime" ];    
     };
   };
 }
