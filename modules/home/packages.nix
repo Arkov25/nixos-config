@@ -1,4 +1,4 @@
-{ inputs, pkgs, ... }:
+{ pgks, ... }:
 {
   home.packages = with pkgs; [
     #gimp
