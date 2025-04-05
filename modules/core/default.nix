@@ -13,6 +13,7 @@
     ./network.nix    
     ./pipewire.nix
     ./security.nix
+    ./services.nix
     ./steam.nix
     ./system.nix
     ./user.nix

@@ -16,7 +16,7 @@
     libreoffice
     obs-studio
     pavucontrol 
-    seahorse  
+#    seahorse  
     thunderbird
     vlc
     winetricks
