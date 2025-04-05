@@ -10,7 +10,7 @@
   home-manager = {
     useUserPackages = true;
     useGlobalPkgs = true;
-    extraSpecialArgs = { inherit inputs username host; };
+    extraSpecialArgs = { inherit inputs username host; };zz
     users.${username} = {
       imports =
         if (host == "desktop") then
