@@ -6,6 +6,7 @@
     ./swaync/swaync.nix
     ./waybar
     ./browser.nix
+    ./gaming.nix
     ./ghostty.nix
     ./gnome.nix
     ./gtk.nix
