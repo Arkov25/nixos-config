@@ -1,11 +1,16 @@
-{ pkgs, ... }:
-{
-  home.packages = with pkgs; [
-     discord
-     #(discord.override {
-      #withVencord = true;
-     #})
-    webcord-vencord
+{ pkgs, lib, ... }:
+
+let
+  vencord = pkgs.vencord; # Stelle sicher, dass vencord verfügbar ist
+in {
+  home.packages = [
+    (pkgs.discord.override ({
+      withVencord = true;
+      withOpenASAR = true;
+      vencord = vencord;
+      enableAutoscroll = true;
+    }))
   ];
+
   xdg.configFile."Vencord/themes/gruvbox.theme.css".source = ./gruvbox.css;
 }
