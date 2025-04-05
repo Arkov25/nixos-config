@@ -2,8 +2,8 @@
 {
   home.packages = with pkgs; [
     #gimp
-    #thunderbird
+    thunderbird
     #obs-studio
-    hyprshot
+    #hyprshot
   ];
 }
