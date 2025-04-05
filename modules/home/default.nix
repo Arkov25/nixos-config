@@ -3,6 +3,7 @@
   imports = [
     ./discord/discord.nix
     ./hyprland
+    ./swaync/swaync.nix
     ./waybar
     ./browser.nix
     ./git.nix
@@ -12,6 +13,7 @@
     ./rofi.nix
     ./snapper.nix
     ./swaylock.nix
+    ./swayosd.nix
     ./via.nix
     ./vscodium.nix
     ./waypaper.nix
