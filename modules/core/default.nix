@@ -12,6 +12,7 @@
     ./hardware.nix
     ./network.nix    
     ./pipewire.nix
+    ./security.nix
     ./steam.nix
     ./system.nix
     ./user.nix
