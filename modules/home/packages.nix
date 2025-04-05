@@ -17,6 +17,7 @@
     obs-studio
     pavucontrol 
 #    seahorse  
+    nnn
     thunderbird
     vlc
     winetricks
