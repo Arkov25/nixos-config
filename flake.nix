@@ -39,7 +39,7 @@
           specialArgs = {
             host = "desktop";
             inherit self inputs username;
-            nixcord = inputs.discord;#helper for nixcord
+            nixcord = inputs.nixcord;#helper for nixcord
           };
         };
         laptop = nixpkgs.lib.nixosSystem {
