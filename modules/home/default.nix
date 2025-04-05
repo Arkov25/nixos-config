@@ -11,13 +11,13 @@
     ./gnome.nix
     ./gtk.nix
     ./git.nix
+    ./gui-filemanager.nix
     ./kitty.nix
     ./packages.nix
     ./rofi.nix
     ./snapper.nix
     ./swaylock.nix
     ./swayosd.nix
-    ./thunar.nix
     ./via.nix
     ./vscodium.nix
     ./waypaper.nix
