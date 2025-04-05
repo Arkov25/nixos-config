@@ -12,12 +12,12 @@
     ./gtk.nix
     ./git.nix
     ./kitty.nix
-    ./nemo.nix
     ./packages.nix
     ./rofi.nix
     ./snapper.nix
     ./swaylock.nix
     ./swayosd.nix
+    ./thunar.nix
     ./via.nix
     ./vscodium.nix
     ./waypaper.nix
