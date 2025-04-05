@@ -26,11 +26,5 @@
       fsType = "btrfs";
       options = [ "subvol=@home" "compress=zstd:1" "noatime" ];
     };
-
-    "/home/${username}/Games" = {
-      device = "/dev/disk/by-uuid/3feed12d-e87f-4f20-b0ab-0a5cb0145c04";
-      fsType = "btrfs";
-      options = [ "subvol=@home/${username}/Games" "compress=zstd:1" "noatime" ];    
-    };
   };
 }
