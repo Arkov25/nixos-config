@@ -122,7 +122,7 @@
         "workspace 5, class:^(Spotify)$"
         "workspace 8, class:^(com.obsproject.Studio)$"
         "workspace 10, class:^(discord)$"
-        "workspace 10, class:^(WebCord)$"
+        #"workspace 10, class:^(WebCord)$"
       ];
 
       workspace = [
