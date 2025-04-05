@@ -10,7 +10,7 @@
     ./nemo.nix
     ./packages.nix
     ./rofi.nix
-    ./snapper.nix
+    ./snapper-gui.nix
     ./swaylock.nix
     ./via.nix
     ./vscodium.nix
