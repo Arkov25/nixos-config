@@ -15,7 +15,8 @@
     hyprshot
     libreoffice
     obs-studio
-    pavucontrol   
+    pavucontrol 
+    seahorse  
     thunderbird
     vlc
     winetricks
