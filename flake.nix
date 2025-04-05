@@ -9,6 +9,7 @@
     hyprpicker.url = "github:hyprwm/hyprpicker";
 
     nix-gaming.url = "github:fufexan/nix-gaming";
+    ghostty = "github:ghostty-org/ghostty";
 
     home-manager = {
       url = "github:nix-community/home-manager";
