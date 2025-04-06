@@ -22,7 +22,7 @@ in
         ms-vscode.cpptools
         jdinhlife.gruvbox
         jonathanharty.gruvbox-material-icon-theme
-        yandeu.five-server
+        ms-vscode.live-server
       ];
       userSettings = {
         "update.mode" = "none";
