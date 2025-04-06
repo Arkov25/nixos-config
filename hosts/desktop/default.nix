@@ -2,8 +2,9 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./../../modules/core
-    ./../../modules/hardware/nvidia.nix
+    ../../modules/core
+    ../../modules/hardware/nvidia.nix
+    ../../modules/services/default.nix
     #./../../modules/hardware/filesystems.nix
   ];
 
