@@ -8,12 +8,18 @@
     man-pages #more man pages
     mpv #video player
     wget #wget
-    rsync
+    rsync #alternative to cp
+    grimblast #screenshots
+    poweralertd #power notifications
     #CLI-fun
     cbonsai
+    fastfetch
+    tty-clock
+    cmatrix
+    pipes
+    sl
     #GUI-Apps
     bleachbit
-    hyprshot
     libreoffice
     obs-studio
     pavucontrol 
@@ -22,5 +28,6 @@
     thunderbird
     vlc
     winetricks
+    gnome-calculator
   ];
 }
