@@ -8,6 +8,7 @@
     man-pages #more man pages
     mpv #video player
     wget #wget
+    rsync
     #CLI-fun
     cbonsai
     #GUI-Apps
