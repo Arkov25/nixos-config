@@ -30,7 +30,7 @@ in */ {
       withOpenASAR = true;
       enableAutoscroll = true;
     }))
-    pkgs.webcord
+    pkgs.webcord-vencord
   ];
 
   # Plugin Theme
