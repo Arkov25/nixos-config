@@ -31,6 +31,7 @@ in */ {
       enableAutoscroll = true;
     }))
     pkgs.webcord-vencord
+    pkgs.vesktop
   ];
 
   # Plugin Theme
