@@ -28,7 +28,7 @@
     thunderbird
     vlc
     gnome-calculator
-    orcaslicer #3D Printing slicer
+    orca-slicer #3D Printing slicer
     bitwarden #Password manager
   ];
 }
