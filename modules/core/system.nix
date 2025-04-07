@@ -16,8 +16,8 @@
   };
   
   nixpkgs.config.allowUnfree = true;
-
-  environment.systemPackages = with pkgs; [ wget git ];
+  
+  environment.systemPackages = with pkgs; [ wget git (xivlauncher-rb.override { useGameMode = true; }) ];
 
   console.keyMap = "de";
   time.timeZone = "Europe/Berlin";

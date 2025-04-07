@@ -18,10 +18,14 @@
     };
 
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
+     nixos-xivlauncher-rb = {
+      url = "github:drakon64/nixos-xivlauncher-rb";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
-    { nixpkgs, self, ... }@inputs:
+    { nixpkgs, self, nixos-xivlauncher-rb, ... }@inputs:
     let
       username = "arkom";
       system = "x86_64-linux";
@@ -35,7 +39,8 @@
       nixosConfigurations = {
         desktop = nixpkgs.lib.nixosSystem {
           inherit system;
-          modules = [ ./hosts/desktop ];
+          modules = [ ./hosts/desktop 
+          nixos-xivlauncher-rb.nixosModules.default];
           specialArgs = {
             host = "desktop";
             inherit self inputs username;

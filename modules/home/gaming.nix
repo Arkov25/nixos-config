@@ -6,5 +6,6 @@
     lutris
     gamemode
     mangohud
+    winetricks
   ];
 }

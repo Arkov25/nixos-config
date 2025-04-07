@@ -27,7 +27,8 @@
     nnn
     thunderbird
     vlc
-    winetricks
     gnome-calculator
+    orcaslicer #3D Printing slicer
+    bitwarden #Password manager
   ];
 }
