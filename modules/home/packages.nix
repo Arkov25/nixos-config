@@ -11,6 +11,7 @@
     rsync #alternative to cp
     grimblast #screenshots
     poweralertd #power notifications
+    docker
     #CLI-fun
     cbonsai
     fastfetch
