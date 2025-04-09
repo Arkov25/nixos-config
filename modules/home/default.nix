@@ -18,8 +18,9 @@
     ./snapper.nix
     ./swaylock.nix
     ./swayosd.nix
+    ./university.nix
     ./via.nix
     ./vscodium.nix
     ./waypaper.nix
       ];
-}
+}4
