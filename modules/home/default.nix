@@ -23,4 +23,4 @@
     ./vscodium.nix
     ./waypaper.nix
       ];
-}4
+}
