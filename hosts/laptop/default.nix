@@ -3,7 +3,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/core
-    ../../modules/hardware/nvidia.nix
+    ../../modules/hardware/intel.nix
     ../../modules/hardware/pipewire.nix
   ];
 
