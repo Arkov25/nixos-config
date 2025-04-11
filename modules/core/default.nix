@@ -10,7 +10,6 @@
   imports = [
     ./bootloader.nix
     ./network.nix    
-    ./pipewire.nix
     ./security.nix
     ./services.nix
     ./steam.nix
