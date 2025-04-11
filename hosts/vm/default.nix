@@ -2,7 +2,8 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./../../modules/core
+    ../../modules/core
+    ../../modules/hardware/nvidia.nix
   ];
     services.openssh = {
     enable = true;
