@@ -17,11 +17,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    spicetify-nix = {
-      url = "github:gerg-l/spicetify-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
 
      nixos-xivlauncher-rb = {
@@ -31,7 +26,7 @@
   };
 
   outputs =
-    { nixpkgs, self, ... }@inputs:
+    { nixpkgs, self,xivlauncher-rb, ... }@inputs:
     let
       username = "arkom";
       system = "x86_64-linux";
