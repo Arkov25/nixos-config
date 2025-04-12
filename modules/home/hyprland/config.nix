@@ -22,7 +22,7 @@
         gaps_in = 6;
         gaps_out = 12;
         border_size = 2;
-        "col.active_border" = "rgb(98971A) rgb(CC241D) 45deg";
+        "col.active_border" = "rgb(F1228A) rgb(F5F4F5) 45deg";
         "col.inactive_border" = "0x00000000";
       };
 
@@ -96,11 +96,11 @@
         "$mainMod CTRL, right, movefocus, r"
         "$mainMod CTRL, up, movefocus, u"
         "$mainMod CTRL, down, movefocus, d"
+
+        #Screenshot
         ",Print, exec, screenshot --copy"
         "$mainMod, Print, exec, screenshot --save"
         "$mainMod SHIFT, Print, exec, screenshot --swappy"
-        "$mainMod, Shift, Space, togglefloating"
-
       ];
 
       windowrule = [
