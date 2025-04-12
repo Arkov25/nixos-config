@@ -57,30 +57,31 @@ in
     keybind = ctrl+shift+right=unbind
     keybind = shift+enter=text:\n
   '';
-  xdg.configFile."ghostty/themes/gruvbox".text = ''
-    background = #1d2021
-    foreground = #fbf1c7
+xdg.configFile."ghostty/themes/gruvbox".text = ''
+  background = #262629
+  foreground = #F5F4F5
 
-    palette = 0=#3c3836
-    palette = 1=#cc241d
-    palette = 2=#98971a
-    palette = 3=#d79921
-    palette = 4=#458588
-    palette = 5=#b16286
-    palette = 6=#689d6a
-    palette = 7=#a89984
-    palette = 8=#928374
-    palette = 9=#fb4934
-    palette = 10=#b8bb26
-    palette = 11=#fabd2f
-    palette = 12=#83a598
-    palette = 13=#d3869b
-    palette = 14=#8ec07c
-    palette = 15=#fbf1c7
+  palette = 0= #262629
+  palette = 1= #F1228A
+  palette = 2= #4C9F67
+  palette = 3= #FFBD2E
+  palette = 4= #2A92BF
+  palette = 5= #F1228A
+  palette = 6= #689D6A
+  palette = 7= #F5F4F5
+  palette = 8= #505050
+  palette = 9= #F1228A
+  palette = 10= #4C9F67
+  palette = 11= #FFBD2E
+  palette = 12= #2A92BF
+  palette = 13= #F1228A
+  palette = 14= #689D6A
+  palette = 15= #F5F4F5
 
-    cursor-color = #D5C4A1
+  cursor-color = #F1228A
 
-    selection-foreground = #282828
-    selection-background = #98971A
-  '';
+  selection-foreground = #262629
+  selection-background = #F1228A
+'';
+
 }
