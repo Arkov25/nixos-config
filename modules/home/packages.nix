@@ -12,6 +12,7 @@
     grimblast #screenshots
     poweralertd #power notifications
     docker
+    bbe#binary file editor
     #CLI-fun
     cbonsai
     fastfetch

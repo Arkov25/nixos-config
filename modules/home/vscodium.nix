@@ -30,6 +30,7 @@ in
         "window.titleBarStyle" = "custom";
         "workbench.colorTheme" = "Gruvbox Dark Hard";
         "workbench.iconTheme" = "gruvbox-material-icon-theme";
+        "editor.mouseWheelZoom" = true;
       };
       keybindings = [
         {
