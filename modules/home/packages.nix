@@ -19,6 +19,7 @@
     cmatrix
     pipes
     sl
+    hellwal#color picker from wallpaper
     #GUI-Apps
     bleachbit
     libreoffice
