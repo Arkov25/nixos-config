@@ -63,19 +63,19 @@ xdg.configFile."ghostty/themes/gruvbox".text = ''
 
   palette = 0= #262629
   palette = 1= #F1228A
-  palette = 2= #A81760
-  palette = 3= #A81717
-  palette = 4= #A817A8
+  palette = 2= #4C9F67
+  palette = 3= #FFBD2E
+  palette = 4= #2A92BF
   palette = 5= #F1228A
-  palette = 6= #5F17A8
+  palette = 6= #689D6A
   palette = 7= #F5F4F5
   palette = 8= #505050
   palette = 9= #F1228A
-  palette = 10= #A81760
-  palette = 11= #A81717
-  palette = 12= #A817A8
+  palette = 10= #4C9F67
+  palette = 11= #FFBD2E
+  palette = 12= #2A92BF
   palette = 13= #F1228A
-  palette = 14= #5F17A8
+  palette = 14= #689D6A
   palette = 15= #F5F4F5
 
   cursor-color = #F1228A
