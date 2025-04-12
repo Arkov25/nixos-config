@@ -17,7 +17,13 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    spicetify-nix = {
+      url = "github:gerg-l/spicetify-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
+
      nixos-xivlauncher-rb = {
       url = "github:drakon64/nixos-xivlauncher-rb";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -25,7 +31,7 @@
   };
 
   outputs =
-    { nixpkgs, self, nixos-xivlauncher-rb, ... }@inputs:
+    { nixpkgs, self, ... }@inputs:
     let
       username = "arkom";
       system = "x86_64-linux";
@@ -39,8 +45,7 @@
       nixosConfigurations = {
         desktop = nixpkgs.lib.nixosSystem {
           inherit system;
-          modules = [ ./hosts/desktop 
-          nixos-xivlauncher-rb.nixosModules.default];
+          modules = [ ./hosts/desktop ];
           specialArgs = {
             host = "desktop";
             inherit self inputs username;

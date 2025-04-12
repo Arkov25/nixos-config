@@ -22,5 +22,7 @@
     ./via.nix
     ./vscodium.nix
     ./waypaper.nix
+ #   ./xivlauncher-rb.nix
+    ./spicetify.nix
       ];
 }
