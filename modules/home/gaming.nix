@@ -6,5 +6,6 @@
     gamemode
     mangohud
     winetricks
+    bottles
   ];
 }
