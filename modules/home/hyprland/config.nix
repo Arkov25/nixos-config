@@ -99,6 +99,8 @@
         ",Print, exec, screenshot --copy"
         "$mainMod, Print, exec, screenshot --save"
         "$mainMod SHIFT, Print, exec, screenshot --swappy"
+        "$mainMod, Shift, Space, togglefloating"
+
       ];
 
       windowrule = [
