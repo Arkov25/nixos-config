@@ -6,7 +6,7 @@ in
   home.packages = [ pkgs.hyprlock ];
   xdg.configFile."hypr/hyprlock.conf".text = ''
     background {
-      path = ${../../../wallpapers/otherWallpaper/gruvbox/skull.png}
+      path = ${../../../wallpapers/skull.png}
       blur_passes = 2
     }
 

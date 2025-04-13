@@ -1,4 +1,4 @@
-{ lib, pkgs, config, USERNAME, ... }: 
+{ lib, pkgs, config, username, ... }: 
 
 {
   home.packages = with pkgs; [
@@ -31,7 +31,7 @@
     xwayland.enable = true;
     
     extraConfig = ''
-      #source = /home/${USERNAME}/.cache/hellwal/colors-hyprland.conf
+      #source = /home/${username}/.cache/hellwal/colors-hyprland.conf
     '';
 
     settings = {
@@ -41,7 +41,7 @@
         "LVDS-1,1920x1080@60,0x0,1" # my T430 with fhd ips B)
       ];
 
-      #"$terminal" = ''footclient -o "include=/home/${USERNAME}/.cache/wal/colors-foot.ini"'';
+      #"$terminal" = ''footclient -o "include=/home/${username}/.cache/wal/colors-foot.ini"'';
       "$terminal" = "alacritty";
       "$menu" = "rofi -show drun";
       "$lock" = "hyprlock";
