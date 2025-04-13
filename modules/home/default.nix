@@ -3,6 +3,7 @@
   imports = [
     ./discord/discord.nix
     ./hyprland.nix
+    ./hyprlock.nix
     ./swaync/swaync.nix
     ./waybar.nix
     ./browser.nix
