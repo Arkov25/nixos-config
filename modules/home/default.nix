@@ -2,9 +2,9 @@
 {
   imports = [
     ./discord/discord.nix
-    ./hyprland
+    ./hyprland.nix
     ./swaync/swaync.nix
-    ./waybar
+    ./waybar.nix
     ./browser.nix
     ./gaming.nix
     ./ghostty.nix

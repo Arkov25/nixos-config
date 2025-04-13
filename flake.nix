@@ -23,6 +23,12 @@
       url = "github:drakon64/nixos-xivlauncher-rb";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    themecord = {
+    url = "github:danihek/themecord";
+    inputs.nixpkgs.follows = "nixpkgs";
+    };
+    
   };
 
   outputs =

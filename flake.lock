@@ -802,6 +802,7 @@
         "nixcord": "nixcord",
         "nixos-xivlauncher-rb": "nixos-xivlauncher-rb",
         "nixpkgs": "nixpkgs_6",
+        "themecord": "themecord",
         "zen-browser": "zen-browser"
       }
     },
@@ -862,6 +863,26 @@
       "original": {
         "id": "systems",
         "type": "indirect"
+      }
+    },
+    "themecord": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1743970059,
+        "narHash": "sha256-vwrIULP9VmYqhNtHcNaPat6OjKqbDgwf3qSypOusG9c=",
+        "owner": "danihek",
+        "repo": "themecord",
+        "rev": "2117717f830c4847eafc450319de26ae09ac9277",
+        "type": "github"
+      },
+      "original": {
+        "owner": "danihek",
+        "repo": "themecord",
+        "type": "github"
       }
     },
     "treefmt-nix": {
