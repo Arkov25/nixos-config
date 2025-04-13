@@ -15,6 +15,7 @@
     ./kitty.nix
     ./packages.nix
     ./rofi.nix
+    ./scripts.nix
     ./snapper.nix
     ./swaylock.nix
     ./swayosd.nix
