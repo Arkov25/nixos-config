@@ -106,10 +106,10 @@
         "$mainMod SHIFT, Print, exec, screenshot --swappy"
 
         #Wallpaper switch
-        "$mod, U, exec, setwall"
-        "$mod, W, exec, setwallp s n"
-        "$mod SHIFT, W, exec, setwallp n n"
-        "$mod SHIFT, U, exec, SEL=$(cd ~/pics/wallpapers/ ; for img in *; do echo -en \"$img\\0icon\\x1f$img\\n\" ; done | rofi -dmenu -show-icons) && setwall \"$SEL\""
+        "$mainMod, U, exec, setwall"
+        "$mainMod, W, exec, setwallp s n"
+        "$mainMod SHIFT, W, exec, setwallp n n"
+        "$mainMod SHIFT, U, exec, SEL=$(cd ~/pics/wallpapers/ ; for img in *; do echo -en \"$img\\0icon\\x1f$img\\n\" ; done | rofi -dmenu -show-icons) && setwall \"$SEL\""
       ];
 
       windowrule = [

@@ -22,6 +22,5 @@
     ./via.nix
     ./vscodium.nix
     ./waypaper.nix
-    ./scripts.nix
       ];
 }
