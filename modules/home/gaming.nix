@@ -5,6 +5,7 @@
     lutris
     gamemode
     mangohud
+    wine
     winetricks
     bottles
   ];
