@@ -4,17 +4,17 @@ let
     font = "Maple Mono";
     font_size = "18px";
     font_weight = "bold";
-    text_color = " #FBF1C7";
-    background_0 = " #1D2021";
-    background_1 = " #282828";
-    border_color = " #928374";
-    red = "# CC241D";
-    green = " #98971A";
-    yellow = " #FABD2F";
-    blue = "# 458588";
-    magenta = " #B16286";
-    cyan = " #689D6A";
-    orange = " #D65D0E";
+    text_color = "#FBF1C7";
+    background_0 = "#1D2021";
+    background_1 = "#282828";
+    border_color = "#928374";
+    red = "#CC241D";
+    green = "#98971A";
+    yellow = "#FABD2F";
+    blue = "#458588";
+    magenta = "#B16286";
+    cyan = "#689D6A";
+    orange = "#D65D0E";
     opacity = "1";
     indicator_height = "2px";
   };
@@ -141,10 +141,9 @@ in
       tooltip-format = "{time}";
     };
     "hyprland/language" = {
-      format = "<span foreground=' #FABD2F'> </span> {}";
+      format = "<span foreground='#FABD2F'> </span> {}";
       format-fr = "FR";
       format-en = "US";
-      #format-de = "DE";
     };
     "custom/launcher" = {
       format = "";

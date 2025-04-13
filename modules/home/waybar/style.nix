@@ -16,8 +16,6 @@ let
     cyan = "#689D6A";
     orange = "#D65D0E";
     orange_bright = "#FE8019";
-    pink = "#A81760";
-    pink_bright = "#F1228A";
     opacity = "1";
     indicator_height = "2px";
   };
@@ -53,7 +51,7 @@ in
       padding-left: 15px;
     }
     #workspaces button {
-      color: ${pink};
+      color: ${yellow};
       padding-left:  5px;
       padding-right: 5px;
       margin-right: 10px;
@@ -62,7 +60,7 @@ in
       color: ${text_color};
     }
     #workspaces button.active {
-      color: ${pink_bright};
+      color: ${orange_bright};
     }
 
     #clock {
