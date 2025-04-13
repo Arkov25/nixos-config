@@ -96,6 +96,9 @@
         "$mainMod CTRL, right, movefocus, r"
         "$mainMod CTRL, up, movefocus, u"
         "$mainMod CTRL, down, movefocus, d"
+        "$mainMod, P, exec, pavucontrol"
+        "$mainMod, B, exec, zen"
+        "$mainMod, Enter, exec, ghostty"
 
         #Screenshot
         ",Print, exec, screenshot --copy"
