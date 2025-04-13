@@ -67,7 +67,7 @@ in
     wallpaper-picker
     random-wallpaper
 
-    runbg
+   /*  runbg
     music
     lofi
 
@@ -92,6 +92,6 @@ in
     screenshot
 
     rofi-power-menu
-    power-menu
+    power-menu */
   ];
 }

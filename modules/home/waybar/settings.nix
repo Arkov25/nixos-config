@@ -140,12 +140,12 @@ in
       tooltip = true;
       tooltip-format = "{time}";
     };
-    #"hyprland/language" = {
-     # format = "<span foreground=' #FABD2F'> </span> {}";
-      #format-fr = "FR";
-      #format-en = "US";
-      #format-de = "DE";
-    #};
+    "hyprland/language" = {
+      format = "<span foreground=' #FABD2F'> </span> {}";
+      format-fr = "FR";
+      format-en = "US";
+      format-de = "DE";
+    };
     "custom/launcher" = {
       format = "";
       on-click = "random-wallpaper";
