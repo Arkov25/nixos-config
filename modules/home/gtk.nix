@@ -27,10 +27,10 @@ in
       size = 12;
     };
     theme = {
-      name = "Colloid-Green-Dark-Gruvbox";
+      name = "Colloid-Pink-Dark-Gruvbox";
       package = pkgs.colloid-gtk-theme.override {
         colorVariants = [ "dark" ];
-        themeVariants = [ "green" ];
+        themeVariants = [ "pink" ];
         tweaks = [
           "gruvbox"
           "rimless"
