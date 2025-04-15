@@ -33,5 +33,6 @@
     gnome-calculator
     orca-slicer #3D Printing slicer
     bitwarden #Password manager
+    fractal #matrix client
   ];
 }
