@@ -22,10 +22,10 @@ let
   );
   toggle_waybar = pkgs.writeScriptBin "toggle_waybar" (
     builtins.readFile ./scripts/toggle_waybar.sh
-  );
+  );*/
   toggle_float = pkgs.writeScriptBin "toggle_float" (
     builtins.readFile ./scripts/toggle_float.sh
-  );
+  );/*
 
   maxfetch = pkgs.writeScriptBin "maxfetch" (
     builtins.readFile ./scripts/maxfetch.sh

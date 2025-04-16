@@ -96,8 +96,8 @@
         "$mainMod CTRL, right, movefocus, r"
         "$mainMod CTRL, up, movefocus, u"
         "$mainMod CTRL, down, movefocus, d"
-        "$mainMod, P, exec, pavucontrol"
-        "$mainMod, B, exec, zen"
+        "$mainMod, O, exec, pavucontrol"
+        "$mainMod, G, exec, zen"
         "$mainMod, Enter, exec, ghostty"
 
         #Screenshot
@@ -132,7 +132,8 @@
         "workspace 5, class:^(Audacious)$"
         "workspace 5, class:^(Spotify)$"
         "workspace 8, class:^(com.obsproject.Studio)$"
-        "workspace 10, class:^(discord)$"
+        "workspace 10, class:^(discord|vesktop)$"
+        "workspace 14, class:^(xivlauncher-rb)$"
         #"workspace 10, class:^(WebCord)$"
       ];
 
