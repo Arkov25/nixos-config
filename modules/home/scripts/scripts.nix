@@ -13,7 +13,7 @@ let
   runbg = pkgs.writeShellScriptBin "runbg" (builtins.readFile ./scripts/runbg.sh);
   music = pkgs.writeShellScriptBin "music" (builtins.readFile ./scripts/music.sh);
   lofi = pkgs.writeScriptBin "lofi" (builtins.readFile ./scripts/lofi.sh);
-/*
+
   toggle_blur = pkgs.writeScriptBin "toggle_blur" (
     builtins.readFile ./scripts/toggle_blur.sh
   );
@@ -22,7 +22,7 @@ let
   );
   toggle_waybar = pkgs.writeScriptBin "toggle_waybar" (
     builtins.readFile ./scripts/toggle_waybar.sh
-  );*/
+  );
   toggle_float = pkgs.writeScriptBin "toggle_float" (
     builtins.readFile ./scripts/toggle_float.sh
   );/*
@@ -86,12 +86,12 @@ in
     vm-start
 
     ascii
-*/
+
     record
 
     screenshot
 
     rofi-power-menu
-    power-menu
+    power-menu*/
   ];
 }
