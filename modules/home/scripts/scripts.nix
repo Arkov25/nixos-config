@@ -75,7 +75,7 @@ in
     toggle_oppacity
     toggle_waybar
     toggle_float
-
+/*
     maxfetch
 
     compress
@@ -86,7 +86,7 @@ in
     vm-start
 
     ascii
-
+*/
     record
 
     screenshot
