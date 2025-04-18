@@ -23,6 +23,8 @@ in
         jdinhlife.gruvbox
         jonathanharty.gruvbox-material-icon-theme
         ms-vscode.live-server
+        mechatroner.rainbow-csv
+
       ];
       userSettings = {
         "update.mode" = "none";
