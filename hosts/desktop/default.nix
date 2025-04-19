@@ -5,6 +5,7 @@
     ../../modules/core
     ../../modules/hardware/nvidia.nix
     ../../modules/hardware/pipewire.nix
+    ../../modules/hardware/bluetooth.nix
     #../../modules/services/default.nix
     #./../../modules/hardware/filesystems.nix
   ];

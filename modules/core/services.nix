@@ -2,6 +2,7 @@
 {
   services = {
     gvfs.enable = true;
+    services.blueman.enable = true;
     gnome = {
       tinysparql.enable = true;
       gnome-keyring.enable = true;

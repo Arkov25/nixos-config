@@ -8,5 +8,6 @@
     wine
     winetricks
     bottles
+    xivlauncher
   ];
 }

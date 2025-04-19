@@ -5,6 +5,7 @@
     ../../modules/core
     ../../modules/hardware/intel.nix
     ../../modules/hardware/pipewire.nix
+    ../../modules/hardware/bluetooth.nix
   ];
 
   environment.systemPackages = with pkgs; [
